@@ -27,7 +27,7 @@ class FilmeList {
         return filme;
     }
 
-    deleteFilmes(id) {
+    deleteFilme(id) {
         this.filmes = this.filmes.filter(filme => filme.id != id);
     }
 
